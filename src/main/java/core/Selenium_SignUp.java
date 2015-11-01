@@ -77,7 +77,7 @@ public class Selenium_SignUp {
 			System.out.println("Element1 does not exist");
 		}
 
-// TC-01.02(get guote)
+// TC-01.02(get quote)
 		String test_case_id_0102 = "TC-01.02";
 		driver.findElement(By.id("id_quotes")).getText();
 		String quote = driver.findElement(By.id("id_quotes")).getText();
@@ -313,11 +313,11 @@ public class Selenium_SignUp {
 					+ url);
 		} else {
 			System.out.println(test_case_id_0109 + " - Failed");
-			System.out.println("URL_Back/URL_Man: " + url_back_exp + " / "
+			System.out.println("URL_Back/URL_Main: " + url_back_exp + " / "
 					+ url);
 		}
 
-// TC-01.10(loading new tab (Facebook page)) or TC-01.11, TC-01.12, TC-01.13
+// TC-01.13(loading new tab (Youtube page)) or TC-01.10, TC-01.11, TC-01.12
 
 		// String test_case_id_0110 = "TC-01.10";
 		// String test_case_id_0111 = "TC-01.11";
